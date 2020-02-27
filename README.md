@@ -26,22 +26,24 @@ The util provides the following functions
 
 Example usage
 
-> $ source aws-setup-util.bash
-> $ export API_NAME="My API"
-> $ create-api
-> {
->     "id": "rb2pmsba11",
->     "name": "My API"
->     "createdDate": 1582846780,
->     "apiKeySource": "HEADER",
->     "endpointConfiguration": {
->         "types": [
->             "EDGE"
->         ]
->     }
-> }
-> $ export API_ID=rb2pmsba11
-> $ get-root
+```
+$ source aws-setup-util.bash
+$ export API_NAME="My API"
+$ create-api
+{
+    "id": "rb2pmsba11",
+    "name": "My API"
+    "createdDate": 1582846780,
+    "apiKeySource": "HEADER",
+    "endpointConfiguration": {
+        "types": [
+            "EDGE"
+        ]
+    }
+}
+$ export API_ID=rb2pmsba11
+$ get-root
+```
 
 Happy hacking
 --pwm
