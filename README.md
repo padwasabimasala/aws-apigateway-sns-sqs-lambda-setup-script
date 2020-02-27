@@ -24,7 +24,11 @@ The util provides the following functions
 * create-lambda-sqs-mapping()
 * test-pipeline()
 
-Example usage
+## Example usage
+
+All commands must be run to complete the pipeline plus a few manual steps but
+the following shows the general workflow. Be sure to read the whole script
+before running any commands.
 
 ```
 $ source aws-setup-util.bash
@@ -43,7 +47,9 @@ $ create-api
 }
 $ export API_ID=rb2pmsba11
 $ get-root
+etc
 ```
+
 
 Happy hacking
 --pwm
